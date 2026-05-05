@@ -1,4 +1,4 @@
-import "@/app/styles/app.css";
+import appCssUrl from "@/app/styles/app.css?url";
 
 export const Document: React.FC<{ children: React.ReactNode }> = ({
   children,
@@ -18,9 +18,10 @@ export const Document: React.FC<{ children: React.ReactNode }> = ({
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
         precedence="first"
       />
+      <link rel="stylesheet" href={appCssUrl} precedence="high" />
       <link rel="modulepreload" href="/src/client.tsx" />
     </head>
     <body>
