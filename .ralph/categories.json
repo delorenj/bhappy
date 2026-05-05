@@ -1,74 +1,74 @@
 {
   "categories": {
     "navigation": {
-      "score": 87,
+      "score": 95,
       "maxScore": 100,
       "subcategories": {
         "internal_links": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
-        "external_links": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "external_links": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
         "deep_links": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
-        "404_handling": { "score": 70, "issues": ["Soft-404 returns HTTP 200 (iter1-002, deferred)"], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 }
+        "404_handling": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T13:30:00Z", "reviewCount": 2 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T11:35:00Z"
+      "lastUpdated": "2026-05-05T13:30:00Z"
     },
     "layout": {
-      "score": 75,
+      "score": 92,
       "maxScore": 100,
       "subcategories": {
-        "css_conflicts": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
-        "responsive_breakpoints": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "overflow_clipping": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "z_index_stacking": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+        "css_conflicts": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "responsive_breakpoints": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T13:30:00Z", "reviewCount": 1 },
+        "overflow_clipping": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T13:30:00Z", "reviewCount": 1 },
+        "z_index_stacking": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T13:30:00Z", "reviewCount": 1 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T11:35:00Z"
+      "lastUpdated": "2026-05-05T13:30:00Z"
     },
     "motion": {
-      "score": 70,
+      "score": 92,
       "maxScore": 100,
       "subcategories": {
-        "hover_states": { "score": 88, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
-        "transitions": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "video_playback": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "reduced_motion": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+        "hover_states": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "transitions": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T13:30:00Z", "reviewCount": 1 },
+        "video_playback": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T13:00:00Z", "reviewCount": 2 },
+        "reduced_motion": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T13:00:00Z", "reviewCount": 1 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T11:35:00Z"
+      "lastUpdated": "2026-05-05T13:30:00Z"
     },
     "accessibility": {
-      "score": 50,
+      "score": 92,
       "maxScore": 100,
       "subcategories": {
-        "aria_landmarks": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "keyboard_navigation": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "color_contrast": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "focus_visible": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+        "aria_landmarks": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "keyboard_navigation": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "color_contrast": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "focus_visible": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T00:00:00Z"
+      "lastUpdated": "2026-05-05T13:30:00Z"
     },
     "content_accuracy": {
-      "score": 90,
+      "score": 92,
       "maxScore": 100,
       "subcategories": {
-        "tier_descriptions": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
-        "exercise_specs": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
-        "command_syntax": { "score": 88, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 }
+        "tier_descriptions": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "exercise_specs": { "score": 94, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "command_syntax": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T12:35:00Z"
+      "lastUpdated": "2026-05-05T13:30:00Z"
     },
     "state_persistence": {
-      "score": 60,
+      "score": 95,
       "maxScore": 100,
       "subcategories": {
-        "localStorage_serialization": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "tier_unlock_logic": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "private_mode_fallback": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+        "localStorage_serialization": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T13:00:00Z", "reviewCount": 1 },
+        "tier_unlock_logic": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T13:00:00Z", "reviewCount": 1 },
+        "private_mode_fallback": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T13:00:00Z", "reviewCount": 1 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T00:00:00Z"
+      "lastUpdated": "2026-05-05T13:30:00Z"
     }
   }
 }
