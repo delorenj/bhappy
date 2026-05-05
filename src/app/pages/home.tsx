@@ -59,35 +59,24 @@ export const Home = () => (
           </div>
         </div>
 
-        {/* Hero side panel — asymmetric, raised */}
-        <aside className="lg:col-span-4 relative" aria-label="Curriculum at a glance">
-          <div className="card relative overflow-hidden p-7 pt-8 bg-[color:var(--color-surface)]">
-            <div className="absolute -top-10 -right-10 w-32 h-32 rounded-full bg-[radial-gradient(circle_at_30%_30%,#FFD58A_0%,var(--color-amber)_60%,var(--color-amber-deep)_100%)] shadow-[0_18px_38px_-10px_rgb(245_148_16/0.55)]" aria-hidden />
-            <span className="eyebrow relative z-10">What you'll do, in order</span>
-            <ol className="mt-5 flex flex-col gap-4 relative z-10">
-              {TIERS.map((t, idx) => (
-                <li key={t.slug} className="flex items-start gap-3">
-                  <span
-                    className="flex-shrink-0 w-7 h-7 rounded-full grid place-items-center text-[0.72rem] font-mono font-medium"
-                    style={{
-                      background: idx === 0 ? "var(--color-amber)" : "rgb(255 255 255 / 0.7)",
-                      color: idx === 0 ? "var(--color-ink)" : "var(--color-ink-muted)",
-                      border: idx === 0 ? "none" : "1px solid var(--color-line)",
-                    }}
-                  >
-                    {t.number}
-                  </span>
-                  <div className="flex-1">
-                    <p className="font-display font-semibold text-[0.95rem] leading-tight">
-                      {t.title}
-                    </p>
-                    <p className="text-[0.825rem] text-[color:var(--color-ink-muted)] leading-snug mt-0.5">
-                      {t.summary.split(".")[0]}.
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ol>
+        {/* Hero video — autoplay loop muted, replaces the static panel */}
+        <aside className="lg:col-span-4 relative" aria-label="BHappy intro video">
+          <div className="relative rounded-[var(--radius-card)] overflow-hidden shadow-[0_28px_60px_-22px_rgb(245_148_16/0.32),0_4px_12px_-4px_rgb(21_23_46/0.10)] border border-[color:var(--color-line)] bg-[color:var(--color-surface)]">
+            <video
+              src="/intro.mp4"
+              poster="/intro-poster.jpg"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="block w-full h-auto"
+              aria-label="BHappy curriculum animation: sun rises, four tiers cascade, start at Tier 01"
+            />
+            <div
+              aria-hidden
+              className="absolute -top-8 -right-8 w-28 h-28 rounded-full opacity-40 blur-2xl pointer-events-none"
+              style={{ background: "radial-gradient(circle at 30% 30%, var(--color-amber-soft) 0%, transparent 70%)" }}
+            />
           </div>
         </aside>
       </div>

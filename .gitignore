@@ -7,6 +7,12 @@ node_modules
 *.aab
 .lastagent
 
+# project assets shipped with the app
+!public/intro.mp4
+
+# hyperframes render outputs (regenerable from intro/index.html)
+hyperframes/intro/renders/
+
 # build & local state
 dist/
 .wrangler/
