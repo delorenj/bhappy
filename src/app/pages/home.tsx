@@ -59,7 +59,7 @@ export const Home = () => (
           </div>
         </div>
 
-        {/* Hero video — autoplay loop muted, replaces the static panel */}
+        {/* Hero video: autoplay loop muted, replaces the static panel */}
         <aside className="lg:col-span-4 relative" aria-label="BHappy intro video">
           <div className="relative rounded-[var(--radius-card)] overflow-hidden shadow-[0_28px_60px_-22px_rgb(245_148_16/0.32),0_4px_12px_-4px_rgb(21_23_46/0.10)] border border-[color:var(--color-line)] bg-[color:var(--color-surface)]">
             <video

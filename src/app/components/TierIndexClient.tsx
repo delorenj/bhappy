@@ -174,7 +174,7 @@ export const TierIndexClient: React.FC<{ tiers: TierMeta[] }> = ({ tiers }) => {
                     color: isComplete ? "var(--color-canvas)" : "var(--accent)",
                   }}
                 >
-                  {hydrated ? STATUS_LABEL[status] : "—"}
+                  {hydrated ? STATUS_LABEL[status] : "..."}
                 </span>
                 <span className="text-[color:var(--color-ink-muted)] text-sm flex items-center gap-1 transition-transform duration-300 group-hover:translate-x-1">
                   Open

@@ -5,7 +5,7 @@
       "maxScore": 100,
       "subcategories": {
         "internal_links": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
-        "external_links": { "score": 90, "issues": ["docs.bmad-method.org link not pinged this iteration; verify in iter 2"], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "external_links": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
         "deep_links": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
         "404_handling": { "score": 70, "issues": ["Soft-404 returns HTTP 200 (iter1-002, deferred)"], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 }
       },
@@ -49,15 +49,15 @@
       "lastUpdated": "2026-05-05T00:00:00Z"
     },
     "content_accuracy": {
-      "score": 60,
+      "score": 90,
       "maxScore": 100,
       "subcategories": {
-        "tier_descriptions": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "exercise_specs": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
-        "command_syntax": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+        "tier_descriptions": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "exercise_specs": { "score": 92, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 },
+        "command_syntax": { "score": 88, "issues": [], "lastReviewed": "2026-05-05T12:30:00Z", "reviewCount": 1 }
       },
       "discoveredAt": 0,
-      "lastUpdated": "2026-05-05T00:00:00Z"
+      "lastUpdated": "2026-05-05T12:35:00Z"
     },
     "state_persistence": {
       "score": 60,

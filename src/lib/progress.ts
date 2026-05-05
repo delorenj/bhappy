@@ -38,7 +38,7 @@ export function saveProgress(p: Progress): void {
   try {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
   } catch {
-    // private mode or quota — silently no-op
+    // private mode or quota: silently no-op
   }
 }
 
