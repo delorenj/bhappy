@@ -13,11 +13,12 @@ const ACCENTS: Record<TierSlug, string> = {
   author: "var(--color-plum)",
 };
 
-export const TierDetail = ({ params }: RequestInfo<{ slug: string }>) => {
+export const TierDetail = ({ params, response }: RequestInfo<{ slug: string }>) => {
   const slug = params.slug as TierSlug;
   const tier = TIER_BY_SLUG[slug];
 
   if (!tier) {
+    response.status = 404;
     return (
       <Layout activePath="tiers">
         <section className="container-x py-24">
