@@ -1,0 +1,74 @@
+{
+  "categories": {
+    "navigation": {
+      "score": 87,
+      "maxScore": 100,
+      "subcategories": {
+        "internal_links": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "external_links": { "score": 90, "issues": ["docs.bmad-method.org link not pinged this iteration; verify in iter 2"], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "deep_links": { "score": 95, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "404_handling": { "score": 70, "issues": ["Soft-404 returns HTTP 200 (iter1-002, deferred)"], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 }
+      },
+      "discoveredAt": 0,
+      "lastUpdated": "2026-05-05T11:35:00Z"
+    },
+    "layout": {
+      "score": 75,
+      "maxScore": 100,
+      "subcategories": {
+        "css_conflicts": { "score": 90, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "responsive_breakpoints": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "overflow_clipping": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "z_index_stacking": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+      },
+      "discoveredAt": 0,
+      "lastUpdated": "2026-05-05T11:35:00Z"
+    },
+    "motion": {
+      "score": 70,
+      "maxScore": 100,
+      "subcategories": {
+        "hover_states": { "score": 88, "issues": [], "lastReviewed": "2026-05-05T11:30:00Z", "reviewCount": 1 },
+        "transitions": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "video_playback": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "reduced_motion": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+      },
+      "discoveredAt": 0,
+      "lastUpdated": "2026-05-05T11:35:00Z"
+    },
+    "accessibility": {
+      "score": 50,
+      "maxScore": 100,
+      "subcategories": {
+        "aria_landmarks": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "keyboard_navigation": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "color_contrast": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "focus_visible": { "score": 50, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+      },
+      "discoveredAt": 0,
+      "lastUpdated": "2026-05-05T00:00:00Z"
+    },
+    "content_accuracy": {
+      "score": 60,
+      "maxScore": 100,
+      "subcategories": {
+        "tier_descriptions": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "exercise_specs": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "command_syntax": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+      },
+      "discoveredAt": 0,
+      "lastUpdated": "2026-05-05T00:00:00Z"
+    },
+    "state_persistence": {
+      "score": 60,
+      "maxScore": 100,
+      "subcategories": {
+        "localStorage_serialization": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "tier_unlock_logic": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 },
+        "private_mode_fallback": { "score": 60, "issues": [], "lastReviewed": null, "reviewCount": 0 }
+      },
+      "discoveredAt": 0,
+      "lastUpdated": "2026-05-05T00:00:00Z"
+    }
+  }
+}

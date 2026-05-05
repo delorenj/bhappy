@@ -198,19 +198,23 @@
   .btn--lg { padding: 0.95rem 1.85rem; font-size: 1rem; }
   .btn--xl { padding: 1.1rem 2.1rem; font-size: 1.0625rem; }
 
-  /* === cards === */
+  /* === cards ===
+   * Hover transition uses --ease-soft (cubic-bezier(0.4,0,0.2,1)) instead of
+   * --ease-spring (which has a 1.56 overshoot factor). The spring overshoot
+   * read as flicker between adjacent cards on rapid pointer movement. */
   .card {
     position: relative;
     background: var(--color-surface);
     border: 1px solid var(--color-line);
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-md);
-    transition: transform 280ms var(--ease-spring),
-                box-shadow 280ms var(--ease-soft),
+    transform: translateZ(0);
+    transition: transform 220ms var(--ease-soft),
+                box-shadow 240ms var(--ease-soft),
                 border-color 200ms var(--ease-soft);
   }
   .card:hover {
-    transform: translateY(-3px);
+    transform: translate3d(0, -3px, 0);
     box-shadow: var(--shadow-lg);
   }
 

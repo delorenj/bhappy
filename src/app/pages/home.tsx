@@ -100,11 +100,11 @@ export const Home = () => (
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-        {TIERS.map((t, idx) => (
+        {TIERS.map((t) => (
           <a
             key={t.slug}
             href={`/tiers/${t.slug}`}
-            className={`card p-7 lg:p-8 group flex flex-col gap-5 ${idx % 2 === 1 ? "md:translate-y-12" : ""}`}
+            className="card p-7 lg:p-8 group flex flex-col gap-5"
             style={{ ["--accent" as string]: tierAccents[t.slug] }}
           >
             <div
