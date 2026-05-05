@@ -19,7 +19,7 @@ export const TierDetail = ({ params }: RequestInfo<{ slug: string }>) => {
 
   if (!tier) {
     return (
-      <Layout>
+      <Layout activePath="tiers">
         <section className="container-x py-24">
           <span className="eyebrow">Not found</span>
           <h1 className="display display--lg mt-4 mb-3">That tier doesn't exist.</h1>
@@ -41,7 +41,7 @@ export const TierDetail = ({ params }: RequestInfo<{ slug: string }>) => {
   const accent = ACCENTS[tier.slug];
 
   return (
-    <Layout>
+    <Layout activePath={tier.slug}>
       <section className="relative overflow-hidden">
         <div
           aria-hidden

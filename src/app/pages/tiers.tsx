@@ -11,7 +11,7 @@ const tierMeta = TIERS.map(({ slug, number, title, summary, duration }) => ({
 }));
 
 export const TierIndex = () => (
-  <Layout>
+  <Layout activePath="tiers">
     <section className="container-x pt-20 lg:pt-28 pb-10">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
         <div className="lg:col-span-8 flex flex-col gap-5">

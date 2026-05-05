@@ -10,7 +10,7 @@ const tierAccents: Record<string, string> = {
 };
 
 export const Home = () => (
-  <Layout>
+  <Layout activePath="home">
     {/* === HERO === */}
     <section className="relative overflow-hidden">
       <div aria-hidden className="absolute -top-32 -right-24 w-[42rem] h-[42rem] rounded-full bg-[radial-gradient(circle_at_30%_30%,var(--color-amber)_0%,transparent_60%)] opacity-50 blur-2xl" />

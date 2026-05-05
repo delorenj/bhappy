@@ -88,6 +88,42 @@
   /* === containers === */
   .container-x { width: min(76rem, 92vw); margin-inline: auto; }
 
+  /* === skip link (visible on focus only) === */
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    z-index: 100;
+    padding: 0.65rem 1.1rem;
+    background: var(--color-ink);
+    color: var(--color-canvas);
+    border-radius: var(--radius-pill);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.875rem;
+    transform: translateY(-200%);
+    transition: transform 200ms var(--ease-soft);
+  }
+  .skip-link:focus { transform: translateY(0); outline: 2px solid var(--color-amber); outline-offset: 3px; }
+
+  /* === global focus-visible ring on links/cards === */
+  a:focus-visible,
+  button:focus-visible,
+  [role="button"]:focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  .card:focus-visible,
+  .tier-item:focus-visible {
+    outline-offset: 4px;
+    border-radius: var(--radius-card);
+  }
+  /* Active nav link gets an amber underline */
+  .nav__link[aria-current="page"]::after {
+    transform: scaleX(1);
+  }
+
   /* === nav === */
   .nav {
     position: sticky; top: 0; z-index: 30;
