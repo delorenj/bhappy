@@ -1,5 +1,14 @@
 {
   "project_name": "BHappy",
   "project_description": "Teach BMAD to Peeps",
-  "project_slug": "bhappy"
+  "project_id": "bhappy",
+  "repo_path": "/home/delorenj/code/bhappy",
+  "ticket_provider": {
+    "type": "plane",
+    "workspace": "",
+    "identifier": "",
+    "board_id": "",
+    "state": "planned"
+  },
+  "agents": {}
 }
